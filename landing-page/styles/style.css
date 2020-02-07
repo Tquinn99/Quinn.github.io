@@ -1,0 +1,271 @@
+/*mobile view*/
+
+html{
+    background-color: #f7f7ff;
+}
+/*logo styling*/
+.logo1{
+    width: 150px;
+    padding-left: 30px;
+}
+/*title*/
+.title{
+    font-family: Montserrat;
+    font-size: 75px;
+    padding: 0 50px 0 30px;
+    color: #333131;
+}
+/*subtitle*/
+.subtitle{
+    font-family: Montserrat, light;
+    padding: 0 50px 0 30px;
+    font-size: 30px;
+    font-weight: 100;
+    color: #333131;
+}
+/*background image*/
+.bg-image{
+    width: 400px;
+    padding: 10px 20px 10px 30px;
+}
+
+
+
+
+/* first form*/
+
+.form-container{
+    width: 400px;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding:  15px 10px 15px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    box-shadow: 5px 3px 3px 3px rgba(160, 159, 159, 0.61);
+    background-color: white;
+}
+
+/*i agree to terms and conditions*/
+imput#agree.check{
+    margin-right: none;
+    width: 20%;
+}
+/*text for agree*/
+.agree{
+    float: right;
+    color: #333131;
+}
+
+.form-heading{
+    font-family: Montserrat;
+    margin: 0 auto; 
+    font-size: 50px;
+    text-align: center;
+    padding: 0 0 20px 0;
+    color: #333131;
+}
+/*first form*/
+.form1{
+    border: none;
+    display: inline-block;
+    margin-bottom: 20px;
+    
+}
+/*enter your infor*/
+.enter{
+    font-family: Montserrat;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    color: #333131;
+}
+/*boxes for inputs*/
+.apply input{
+    border-radius: 15px;
+    display: inline-block;
+    width: 85%;
+    margin: 0 auto;
+    padding: 15px;
+    margin: 10px;
+    font-size: 15px;
+    background-color: rgb(236, 236, 236);
+    color: #333131;
+}
+/*first button*/
+.apply input.button1{
+    background-color: #57EEAB;
+    border: none;
+    width: 95%;
+    font-size: 35px;
+    font-weight: bold;
+}
+/*already applied section*/
+.applied{
+    font-family: Montserrat;
+    font-size: 20px;
+    color: #333131;
+}
+
+/* to be honest I think the way I styled this seperating the link from the text is better UI*/
+
+.red{
+    font-family: Montserrat;
+    color: #FF8480;
+    font-size: 20px;
+}
+
+/*second form*/
+
+.form2{
+    border: none;
+}
+/*fieldset buttons*/
+input{
+    border-radius: 15px;
+    border: none;
+    padding: inherit;
+}
+/*hours input*/
+.hours1{
+    width: 60px;
+    font-size: 20px;
+    color: #333131;
+}
+/*calculate button*/
+.button2{
+    width: 375px;
+    margin:10px auto;
+    background-color: #FF8480;
+    color: white;
+    font-size: 30px;
+}
+/*title for second form*/
+.hours{
+    font-family:Montserrat;
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px 0 10px 0;
+    color: #333131;
+}
+/*city button*/
+.city{
+    font-size: 20px;
+    width: 260px;
+    color: #333131;
+}
+/*footer*/
+
+/*see how much you can earn*/
+h2{
+    font-family: Montserrat;
+    width: 400px;
+    margin: 0 auto;
+    color: #333131;
+}
+/*footer*/
+footer{
+    background-color:#FFFD8C;
+    padding: 10px 20px 10px 30px;
+}
+
+/*social icons*/
+.social{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/*tablet view*/
+
+@media(min-width:600px){
+
+
+    .wrap{
+        width: 80%;
+    }
+
+    h2{
+        width: 80%;
+    }
+
+    p.hours{
+        width: 80%;
+    }
+
+    feildset.form2{
+        width: 80%;
+    }
+
+    div.form-container{
+        width: 600px;
+    }
+
+    .bg-image{
+       
+    }
+
+    .hours1{
+        margin-left: 1em;
+    }
+
+
+  .city{
+      width: 150px;
+      margin-left: 1em;
+  }
+
+  .button2{
+      font-size: 20px;
+      width: 250px;
+      margin-left: 1.5em;
+  }
+
+  fieldset.form2{
+      margin:0 auto;
+  }
+  
+}
+
+/*desktop view*/
+@media(min-width:850px){
+.logo1{
+    padding: 50px;
+    width: 95px;
+}
+
+.div1{
+    padding-left: 40px;
+}
+
+.bg-image{
+    width: 900px;
+    margin-left: none;
+}
+
+h1.title{
+    font-size: 50px;
+    width: 400px;
+}
+
+p.subtitle{
+    width: 400px;
+    font-size: 20px;
+}
+
+.social{
+    position: relative;
+    
+}
+/*div containing first form first title and subtitle  and bg-image*/
+.sausage{
+    display: flex;
+    justify-content: space-evenly;
+}
+/*contains the first form*/
+.form-container{
+    margin-right: 40px;
+}
+
+
+
+}

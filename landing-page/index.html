@@ -1,15 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles/style.css">
-    <title>Landing Page</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/style.css">
+        <title>Landing Page</title>
+    </head>
 <body>
-    <h1>MOGUL MOVES</h1>
-    <p>testing</p>
-    <p>hello</p>
+    <!-- logo -->
+    <img src="images/logo/logo.png" alt="logo" class="logo1">
+        
+    <!--sausage contains everything but the footoer-->
+    <div class="sausage">
+        <!--title and subtitle-->
+            <div class="div1">
+                <h1 class="title">Want to be your own boss?</h1>
+
+                <p class="subtitle">Start today and make up to $30/hr driving your own vehice with dash</p>
+            </div>
+
+            <!--background image-->
+
+            <img class="bg-image" src="images/bg-image/scooter.svg">
+            <!--first form-->
+                <div class="form-container">
+                    <!--form heading-->
+                    <h1 class="form-heading">Apply Now</h1>
+                        
+                        <form class="apply">
+
+                            <fieldset class="form1">
+
+                            <legend class="enter">Enter your info below</legend>
+                            <input class="first" type="text" name="Firstname" placeholder="First Name">
+                            
+                                <input class="last" type="text" name="lastname"
+                                placeholder="Last Name">
+                            
+                                <input class="phone" type="text" name="phone number"
+                                placeholder="Phone Number">
+                            
+                                <input class="email" type="text" name="email address"
+                                placeholder="Email">
+                            
+                                <input id="agree" class="check" type="checkbox" name="agree">
+                                <label class="agree" for="agree">I agree to Dash terms</label>
+
+                                <input class="button1" type="submit" value= "DRIVE WITH US">
+                            <p class="applied">already applied?     <div class="red">Check your application status here.</div>
+                            </p>
+                        </fieldset>
+
+            </div>
+    </div>
+<!--footer-->
+    <footer>
+        <!--title-->
+        <div class="wrap">
+            <h2>See how much you can earn with Dash</h2>
+            <!--subtitle-->
+            <p class="hours">How many hours do you want to drive with us this week?</p>
+        </div>
+        <!--second form-->
+        <fieldset class="form2">
+
+            <input class="hours1" type="text" name="Hours"
+            placeholder="Hours">
+         
+            <input class="city" type="text" name="City" placeholder="City">
+
+            <input class="button2" type="submit" value= "CALCULATE">
+
+         </fieldset>
+<!--social icons-->
+    <div class="social">
+
+         <img src="images/icons/facebook.svg">
+
+         <img src="images/icons/instagram.svg">
+
+         <img src="images/icons/twitter.svg">
+
+         <img src="images/icons/linkedin.svg">
+
+    </div>
+
+    </footer>
+
+   
 </body>
 </html>
