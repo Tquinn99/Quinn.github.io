@@ -1,0 +1,551 @@
+html{
+    font-family:'Exo 2', sans-serif;
+}
+
+.hero2{
+    display: none;
+}
+.hero3{
+    display: none;
+}
+
+
+
+.nl{
+    background-color: black;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    
+    
+}
+/* centering navigation items */
+.wrapper{
+    display:block;
+    text-align: center;
+}
+
+
+/* mobile nav styling */
+ul{
+    margin-bottom: 0%;
+    padding: 0%;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+ul li a:hover{
+    color: rgb(235, 233, 208);
+}
+li{
+    padding: 20px;
+    font-size: 19px;
+}
+/* breathing room for logo in nav */
+
+img.wlogo{
+    padding-top: 20px;
+}
+
+figcaption{
+    margin-left: 20px;
+}
+
+figure{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+.hero1{
+    width: 100%;
+    margin: 0%;
+    background-color: black;
+    padding-top: 0%;
+}
+
+
+
+/*Home page image styling  */
+img.box{
+    transition: all .2s ease-in-out;
+}
+
+img.box:hover{
+    transform: scale(1.1);
+}
+
+.box{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+h1{
+    margin-left: 40px;
+}
+
+img.box{
+    margin-top: 40px;
+}
+
+img.box.letshelp{
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+p{
+    padding: 5px;
+    line-height: 1.5em;
+}
+
+/* homepage to gallery styling */
+
+div.togall{
+    margin-top: 30px;
+}
+.togallery{
+    background-color: black;
+    color: white;
+    display: block;
+    text-align: center;
+}
+/* gallery button styling */
+.vgh{
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.vg a{
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+    padding: 12px;
+}
+
+.vg{
+    padding: 3px;
+    border: none;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+/* home contact button */
+.buttoncontainer{
+    text-align: center;
+}
+
+.buttontocontact{
+    display: inline-block;
+}
+
+
+.hcb a{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    
+}
+
+.hcb{
+    padding: 6px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    width: 150px;
+    margin-top: 70px;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.342);
+}
+/* footer styling */
+footer{
+    background-color: black;
+}
+
+h3{
+    color: white;
+    margin: 0%;
+}
+/* contains h3 and icons */
+div.contentwrapper{
+    display: flex;
+    padding: 30px;
+    justify-content:space-between;
+}
+/* social icons */
+.social.image1{
+    width: 20px;
+    height: auto;
+}
+
+.social.image2{
+    width: 20px;
+}
+
+.social.image3{
+    width: 10px;
+}
+
+.social{
+    padding: 0px 10px 0px 10px; 
+}
+
+/* homepage title and paragraph styling */
+
+h2{
+    margin-left: 50px;
+}
+
+div.hs1{
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.342);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+div.hs12{
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.342);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+
+
+footer{
+    margin-top: 70px;
+}
+
+/* CONTACT STYLING */
+/* contact from styling */
+
+#zipper{
+    margin-left: 40px;
+}
+
+#name{
+    display: block;
+}
+
+#email{
+    display: block;
+}
+
+#message{
+    display: block;
+}
+
+.cf{
+    width: 400px;
+    margin: 0 auto;
+}
+
+input{
+    width: 375px;
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.342);
+}
+
+textarea#Message{
+    width: 375px;
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.342);
+    resize: vertical;
+    height: 150px;
+    transition: all 1.2s ease-in;
+    transform-origin: right;
+}
+
+
+
+/* submit button styling */
+
+
+
+.submit{
+    padding: 6px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.342);
+}
+
+.submit a{
+    text-decoration: none;
+    padding: 30px;
+    color: white;
+    font-size: 15px;
+}
+
+
+.o{
+    width: 80%;
+    margin-left: 40px;
+}
+
+img.o.zip{
+    box-shadow: -25px 15px 15px rgba(104, 103, 103, 0.342);
+    border-radius: 50px;
+}
+
+img.o.before1{
+    box-shadow: -25px 15px 15px rgba(104, 103, 103, 0.342);
+    border-radius: 50px;
+}
+
+
+img.o.before2{
+    margin-top: 20px;
+    box-shadow: -25px 15px 15px rgba(104, 103, 103, 0.342);
+    border-radius: 50px;
+}
+img.o.afterimage{
+    box-shadow: -25px 15px 15px rgba(104, 103, 103, 0.342);
+    border-radius: 50px;
+}
+
+
+
+
+
+.p{
+    width: 80%;
+}
+
+.por{
+    width: 73%;
+    border-radius: 35px;
+    margin: 20px 0 20px 40px;
+    box-shadow: -25px 15px 15px rgba(104, 103, 103, 0.342);
+}
+
+img.por.three{
+    margin-bottom: 30px;
+}
+
+.wid{
+    margin-left: 40px;
+}
+
+.cuhy{
+    margin-left: 40px;
+}
+
+
+/* First Breakpoint */
+
+@media(min-width:780px){
+
+
+    /* nav restyling */
+    div.nl{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        margin-top:30px;
+    }
+
+    img.wlogo{
+        width: 85px;
+        margin: 12px 0px 12px 33px;
+    }
+
+
+
+
+/* home page styling */
+   .hero1{
+       display:none;
+   }
+
+    .hero2{
+        display: block;
+        width: 100%;
+        max-height: 700px;
+    }
+
+
+
+
+    .hs{
+        display: flex;
+    }
+
+    .box.ux{
+        width: 45%;
+    }
+
+
+    .hs2{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    div.hs12{
+        margin-right: 20px;
+    }
+
+    img.box.dm{
+        width: 45%;
+        margin-right: 40px;
+    }
+
+    .hs3{
+        display: flex;
+    }
+
+    img.box.pv{
+        width: 45%;
+    }
+
+    .hs4{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    img.box.branding{
+        width: 45%;
+        margin-right: 40px;
+    }
+
+    /* contact page  */
+
+    form.cf{
+        margin-left: 300px;
+    }
+
+    h1#zipper{
+        font-size: 32px;
+    }
+
+
+    /* portfolio styling */
+
+    div.ps1{
+        display: flex;
+    }
+
+    div.before{
+        width: 50%;
+    }
+    div.after{
+        width: 50%;
+    }
+
+    img.o.before1{
+        box-shadow: -25px 15px 15px rgba(104, 103, 103, 0.342);
+        border-radius: 50px;
+    }
+
+
+    img.o.before2{
+        margin-top: 125px;
+        box-shadow: -25px 15px 15px rgba(104, 103, 103, 0.342);
+        border-radius: 50px;
+    }
+
+
+    div.ps2{
+        display: flex;
+    }
+
+    div.b2{
+        margin-top: 10px;
+    }
+
+    div.ps3{
+        margin-left: 60px;
+    }
+
+  
+
+
+}
+
+/* Final Breakpoint */
+
+@media(min-width:1000px){
+
+/* homepage styling */
+/* header */
+.hero2{
+    display: none;
+}
+
+.hero3{
+    display: block;
+    width: 100%;
+    max-height: 800px;
+}
+
+div.hs5{
+    display: flex;
+}
+
+img.box.letshelp{
+    width: 50%;
+}
+
+div.johanna{
+    margin-top: 50px;
+}
+
+
+/* Contact Styling */
+
+h1#zipper{
+    margin-left: 200px;
+}
+
+
+form.cf{
+    margin-left: 600px;
+}
+
+/* portfolio styling */
+/* images */
+
+.p{
+    width: 50%;
+}
+
+.por{
+    width: 50%;
+}
+
+img.p.two{
+    margin-left: 50%;
+}
+
+img.p.four{
+    margin-left: 50%;
+}
+
+img.por.six{
+    margin-left: 50%;
+}
+
+h1.cuhy{
+    margin-left: 90px;
+}
+
+button.submit{
+    margin-left: 90px;
+}
+
+
+}
